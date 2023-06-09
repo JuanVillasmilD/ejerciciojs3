@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario {
+  text-align: center;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.formulario h3 {
+  margin-bottom: 10px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* Alineación izquierda de los labels */
+}
+
+.formulario input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%; /* Ajuste del ancho de los inputs al 100% */
+  box-sizing: border-box; /* Incluir el padding en el ancho total del input */
+}
+
+.formulario button {
+  padding: 10px 20px;
+  background-color: #00a9cb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #0085be;
+}
